@@ -1,8 +1,8 @@
 export const prerender = true;
 
 export async function GET({ url }) {
-    const baseURL = 'https://thecloudsquad.com';
-
+    //const baseURL = 'https://thecloudsquad.com';
+    const baseURL = 'https://main.d1e8224l64b8ny.amplifyapp.com/';
     const today = new Date().toISOString().split('T')[0];
 
     const pages = [
